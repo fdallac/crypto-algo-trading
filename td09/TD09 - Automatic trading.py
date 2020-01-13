@@ -59,7 +59,7 @@ table_creation_statement = '''CREATE TABLE IF NOT EXISTS ''' + trades_table_name
 c.execute(table_creation_statement)
 
 
-### ::: FUNCTIONS :::
+### ::: functions :::
 
 def listCurrencies(api_url=pro_url):
     # call API
